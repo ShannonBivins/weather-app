@@ -211,7 +211,7 @@ button:active
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
-@media(orientation: portrait)
+@media(max-width: 840px)
 {
     .header
     {
