@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            <div class="search">
+                <input class="search-bar" type="text" placeholder="Search a City">
+                <button class="search-button"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z" clip-rule="evenodd"></path></svg></button>
+            </div>
+
+            <p class="title">Weather<span class="watch">Watch</span></p>
+        </div>
+
+        <div class="current">
+            <div class="current-weather">
+                <h2 class="city">Dallas</h2>
+                <p class="main-temp">90°F</p>
+                <img class="icon" src="" alt=""/>
+                <p class="description">Partly Cloudy</p>
+            </div>
+
+            <div class="current-inner">
+                <div class="current-info">
+                    <div class="info">
+                        <img class="hi-image" src="images/Hi.svg"/>
+                        <p class="temp-max">Hi: 88</p>
+                    </div>
+
+                    <div class="info">
+                        <img class="lo-image" src="images/Lo.svg">
+                        <p class="temp-min">Lo: 77</p>
+                    </div>
+                </div>
+
+                <div class="info-continued">
+                    <div>
+                        <img class="humidity-image" src="images/humidity.svg">
+                        <p class="humidity">humidity: 60%</p>
+                    </div>
+
+                    <div>
+                        <img class="wind-image" src="images/wind.svg">
+                        <p class="wind">wind speed: 60%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="weather-forecast">
+                <div id="today" class="day-box">
+                    <img class="img" src="" alt=""/>
+                    <p class="day">Monday</p>
+                    <p class="temp">51°F</p>
+                </div>
+
+                <div class="day-box">
+                    <img src="" alt="weather icon" class="img">
+                    <p class="day">Tuesday</p>
+                    <p class="temp">67°F</p>
+                </div>
+
+                <div class="day-box">
+                    <img src="" alt="weather icon" class="img">   
+                    <p class="day">Wednesday</p>
+                    <p class="temp">70°F</p>
+                </div>
+
+                <div class="day-box">
+                    <img src="" alt="weather icon" class="img"/>
+                    <p class="day">Thursday</p>
+                    <p class="temp">52°F</p>
+                </div>
+
+                <div class="day-box">
+                    <img src="" alt="weather icon" class="img"/>
+                    <p class="day">Friday</p>
+                    <p class="temp">66°F</p>
+                </div>
+            </div>
+        </div>
+    </div>
+         
+    <script src="script.js" defer></script>
+</body>
+</html>
