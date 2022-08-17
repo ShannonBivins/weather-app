@@ -24,8 +24,15 @@ button
     width: 40px;
     background-color: white;
     cursor: pointer;
-    transition: 0.2s ease-in-out;
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .075);
+}
+button:hover
+{
+    background: LightGray;
+}
+button:active
+{
+    transform: scale(0.9);
 }
 .card
 {
@@ -247,6 +254,11 @@ button
     .info
     {
         width: 100%;
+    }
+    .info img
+    {
+        width: auto;
+        height: auto;
     }
     .weather-forecast
     {
